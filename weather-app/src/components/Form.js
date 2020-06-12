@@ -1,23 +1,28 @@
-// import React from 'react'
 
-// const Form = (props) => {
-//     return (
-//         <form onSubmit={props.getWeather}>
-//             <input
-//             type='text'
-//             placeholder='city'
-//             name='city'
-//             />
-          
-//             <button>Submit</button>
-//         </form>
-//     )
-// }
-
-// export default Form;
+import React from 'react';
 
 
-import React, {Fragment} from 'react';
+
+const Form = (props) => {
+return (
+<div>
+<form onSubmit={props.getWeather}>
+      <input placeholder="find your city" type="text" name="city" />
+
+      <button>submit</button>
+    </form>
+</div>
+);
+}
+
+
+export default Form;
+
+
+
+//Here is my experiment using Elastic UI. 
+
+// import React, {Fragment} from 'react';
 
 // import {
   
@@ -28,7 +33,7 @@ import React, {Fragment} from 'react';
 //   EuiSpacer
 // } from '@elastic/eui';
 
-const Form = (props) => {
+// const Form = (props) => {
 //     return(
 //   <Fragment>
 //     <EuiFlexGroup>
@@ -55,17 +60,4 @@ const Form = (props) => {
 //     </Fragment>
 //     );
 // }
-return (
-<div>
-<form onSubmit={props.getWeather}>
-      <input placeholder="find your city" type="text" name="city" />
-
-      <button>submit</button>
-    </form>
-</div>
-);
-}
-
-
-export default Form;
 
