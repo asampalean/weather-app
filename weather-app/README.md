@@ -6,7 +6,7 @@ Simple interface that allows you to search for a municipality in the province of
 
 At the moment, the user can only search for a location by cityID.
 
-Here are few example of cityIds
+Here are few example of cityIDs:
 
 - Abrera : 08003
 - Bellprat : 08060
