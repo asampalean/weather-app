@@ -8,6 +8,6 @@ Simple interface that allows you to search for a municipality in the province of
 
 # Run your development server
 
-`cd client` and run `yarn start` to start client server in development mode with hot reloading in port 3000.
+-`cd client` and run `yarn start` to start client server in development mode with hot reloading in port 3000.
 
-test your client app in http://localhost:3000
+-test your client app in http://localhost:3000
