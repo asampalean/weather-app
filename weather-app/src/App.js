@@ -3,13 +3,13 @@
 
 
 import React, { useState } from "react";
-import Header from "./components/Header";
+
 import Form from "./components/Form";
 import WeatherCard from "./components/WeatherCard";
 
 
 import "@elastic/eui/dist/eui_theme_light.css";
-import { EuiPage, EuiPageBody, EuiSpacer } from "@elastic/eui";
+import { EuiPage, EuiPageBody, EuiSpacer, EuiTitle, EuiPageHeader, EuiPageHeaderSection, EuiPageContent } from "@elastic/eui";
 
 function App() {
   const [results, setResults] = useState([]);
@@ -37,9 +37,18 @@ function App() {
   return (
     
       <EuiPage>
-        <EuiPageBody>
+        <EuiPageBody >
+          <EuiPageContent verticalPosition="center" horizontalPosition="center" style={{ background: '#222' },{marginTop:'200px'}}>
         <EuiSpacer></EuiSpacer>
-        <Header/>
+        <EuiPageHeader>
+      <EuiPageHeaderSection>
+        <EuiTitle size="l" >
+        
+            <h1>Weather app</h1>
+           
+        </EuiTitle>
+      </EuiPageHeaderSection>
+      </EuiPageHeader>
         
     <EuiSpacer></EuiSpacer>
       
@@ -52,7 +61,7 @@ function App() {
         date={results.date}
         error={results.error}
       />
-      
+      </EuiPageContent>
       </EuiPageBody>
       </EuiPage>
   

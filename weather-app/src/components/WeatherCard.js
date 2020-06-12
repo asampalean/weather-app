@@ -24,12 +24,13 @@ const WeatherCard = ({city, temperature, rain }) => {
           title={
           <span>{city}</span>
         }
-      description={<span>Temperature is {temperature}  </span>}
+      description={<span> {temperature} °C </span>}
          
-      children={<span>There are {rain} % of rain</span>}
+      children={<span> {rain} % of rain</span>}
+    
          
           
-          onClick={() => window.alert("Card clicked")}
+         
           
           
         />
