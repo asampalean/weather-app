@@ -1,8 +1,8 @@
-# weather-app
+# Weather App 🌦
 
 Simple interface that allows you to search for a municipality in the province of Barcelona and present the current temperature and the probability of rain for today
 
-# App specifications
+# App specifications 🔮
 
 At the moment, the user can only search for a location by cityID.
 
@@ -12,7 +12,7 @@ Here are few example of cityIds
 - Bellprat : 08060
 - Cubelles: 08219
 
-# Setup
+# Setup ⚒
 
 # Dependencies
 
